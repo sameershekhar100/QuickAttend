@@ -9,13 +9,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuickAttend">
-        <activity android:name=".MainActivity">
+        <activity android:name=".students.StudentDashboard"/>
+        <activity android:name=".students.StudentLightAttendance" >
+
+        </activity>
+        <activity android:name=".activity.LightAttendRoom" />
+        <activity android:name=".activity.LightAttend"></activity>
+        <activity android:name=".activity.NoticeListActivity" />
+        <activity android:name=".activity.AddNoticeActivity" />
+        <activity android:name=".admin.Admin" >
+
+        </activity>
+
+        <activity android:name=".activity.IntroActivity"/>
+        <activity android:name=".students.StudentViewNoticeActivity"/>
+        <activity android:name=".admin.AdminLoginActivity" >
+
+        </activity>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".students.StudentProfile" />
+        <activity android:name=".students.StudentLoginActivity" />
+        <activity android:name=".students.StudentRegisterActivity" />
+        <activity android:name=".teachers.TeacherProfile" />
+        <activity android:name=".teachers.TeacherLoginActivity" />
+        <activity android:name=".activity.AdminStudentsInput" >
+
+        </activity>
+        <activity android:name=".activity.Dashboard" />
+        <activity android:name=".activity.ViewAttendanceRecords" />
+        <activity android:name=".activity.SplashActivity"></activity>
+        <activity android:name=".activity.AttendanceView" />
+        <activity android:name=".activity.teacherRegisterActivity" />
+        <activity android:name=".activity.SwipeList" />
+        <activity android:name=".activity.TakeAttendance" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".students.StudentCheckAttendance" />
+        <activity android:name=".students.StudentAttendanceProfile" />
     </application>
 
 </manifest>

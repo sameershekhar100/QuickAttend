@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">QuickAttend</string>
+    <string name="dateformat">20xx-xx-xx</string>
+    <string name="title">Title</string>
+    <string name="description_text">Description-text</string>
+    <string-array name="Branch">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EE</item>
+        <item>ME</item>
+        <item>CE</item>
+        <item>IMsc</item>
+        <item>Archi</item>
+    </string-array>
+
+    <string-array name="Teacher">
+        <item>Ayushman</item>
+        <item>Sameer</item>
+        <item>t2</item>
+        <item>t4</item>
+        <item>t5</item>
+    </string-array>
+
+    <string-array name="Batch">
+        <item>2k17</item>
+        <item>2k18</item>
+        <item>2k19</item>
+        <item>2k20</item>
+    </string-array>
+
+    <string name="intro_details">QuickAttend Live Attendance
+    </string>
+    <string name="intro_1">Manage Teacher and Student information</string>
+    <string name="intro_2">Course Allocation System</string>
+    <string name="intro_3">Take live Attendance</string>
+
 </resources>
